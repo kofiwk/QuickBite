@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499293490933",
+    "project_id": "quickbite-1",
+    "storage_bucket": "quickbite-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499293490933:android:5b948febd366837224bfbc",
+        "android_client_info": {
+          "package_name": "com.william.quickbite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7qZFcG4-XCvc-SFDyT5_2HluEZ1SGQsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
