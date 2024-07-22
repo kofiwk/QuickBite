@@ -75,11 +75,11 @@ class Restaurant extends ChangeNotifier {
       ]
     ),
     // salads
-    Food(
+    /* Food(
       name: 'Fruit Salad',
       description:
           'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
-      imagePath: 'assets/food/bacon.jpg ',
+      imagePath: 'assets/food/beef-burger.jpg ',
       price: 0.99,
       category: FoodCategory.salads,
       availableAddons: [
@@ -87,72 +87,9 @@ class Restaurant extends ChangeNotifier {
         Addon(name: 'Bacon', price: 1.49),
         Addon(name: 'Avocado', price: 1.99),
       ]
-    ),
-    Food(
-      name: 'Fruit Salad',
-      description:
-          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
-      imagePath: 'assets/food/bacon.jpg ',
-      price: 0.99,
-      category: FoodCategory.salads,
-      availableAddons: [
-        Addon(name: 'Extra Cheese', price: 0.99),
-        Addon(name: 'Bacon', price: 1.49),
-        Addon(name: 'Avocado', price: 1.99),
-      ]
-    ),
-    Food(
-      name: 'Fruit Salad',
-      description:
-          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
-      imagePath: 'assets/food/bacon.jpg ',
-      price: 0.99,
-      category: FoodCategory.salads,
-      availableAddons: [
-        Addon(name: 'Extra Cheese', price: 0.99),
-        Addon(name: 'Bacon', price: 1.49),
-        Addon(name: 'Avocado', price: 1.99),
-      ]
-    ),
-    Food(
-      name: 'Fruit Salad',
-      description:
-          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
-      imagePath: 'assets/food/bacon.jpg ',
-      price: 0.99,
-      category: FoodCategory.salads,
-      availableAddons: [
-        Addon(name: 'Extra Cheese', price: 0.99),
-        Addon(name: 'Bacon', price: 1.49),
-        Addon(name: 'Avocado', price: 1.99),
-      ]
-    ),
-    Food(
-      name: 'Fruit Salad',
-      description:
-          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
-      imagePath: 'assets/food/bacon.jpg ',
-      price: 0.99,
-      category: FoodCategory.salads,
-      availableAddons: [
-        Addon(name: 'Extra Cheese', price: 0.99),
-        Addon(name: 'Bacon', price: 1.49),
-        Addon(name: 'Avocado', price: 1.99),
-      ]
-    ),
-    Food(
-      name: 'Fruit Salad',
-      description:
-          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
-      imagePath: 'assets/food/bacon.jpg ',
-      price: 0.99,
-      category: FoodCategory.salads,
-      availableAddons: [
-        Addon(name: 'Extra Cheese', price: 0.99),
-        Addon(name: 'Bacon', price: 1.49),
-        Addon(name: 'Avocado', price: 1.99),
-      ]
-    ),
+    ), */
+   
+     
     // desserts
     Food(
       name: 'Classic Cheeseburger',
