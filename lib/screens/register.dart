@@ -27,25 +27,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
             emailController.text, passwordController.text);
       } catch (e) {
         showDialog(
-          context: context, 
-          builder: (context) => AlertDialog(
-          title: Text(e.toString()),
-          )
-        );
+            context: context,
+            builder: (context) => AlertDialog(
+                  title: Text(e.toString()),
+                ));
       }
-    }
-    else {
+    } else {
       showDialog(
-        context: context, 
-        builder: (context) => const AlertDialog(
-          title: Text(
-          "Passwords don't match!",
-          style: TextStyle(
-            fontFamily: 'Poppins'
-          ),
-          ),
-        )
-      );
+          context: context,
+          builder: (context) => const AlertDialog(
+                title: Text(
+                  "Passwords don't match!",
+                  style: TextStyle(fontFamily: 'Poppins'),
+                ),
+              ));
     }
   }
 
@@ -104,7 +99,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
             // sign up
             MyButton(
               text: 'Sign Up',
-              onTap: () {},
+              onTap: () {
+                register();
+                Navigator.pop(context);
+              },
             ),
 
             const SizedBox(height: 20),
