@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:quickbite/components/drawer_tile.dart';
 import 'package:quickbite/screens/settings.dart';
 import 'package:quickbite/services/auth/auth_service.dart';
-
+/* import 'package:quickbite/services/auth/login_or_register.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+ */
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
 
@@ -10,6 +12,19 @@ class MyDrawer extends StatelessWidget {
     final authService = AuthService();
     authService.signOut();
   }
+
+  /* Future<void> _logout(BuildContext context) async {
+    // Clear user session
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.clear();
+
+    // Navigate to LoginOrRegister screen
+    Navigator.pushAndRemoveUntil(
+      context,
+      MaterialPageRoute(builder: (context) => const LoginOrRegister()),
+      (route) => false, // Remove all previous routes
+    );
+  } */
 
   @override
   Widget build(BuildContext context) {
@@ -59,7 +74,10 @@ class MyDrawer extends StatelessWidget {
           MyDrawerTile(
             text: 'L O G O U T',
             icon: Icons.logout,
-            onTap: () {},
+            onTap: () {
+              logout();
+              Navigator.pop(context);
+            }
           ),
 
           const SizedBox(height: 25),
