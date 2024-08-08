@@ -104,7 +104,111 @@ class Restaurant extends ChangeNotifier {
         Addon(name: 'Avocado', price: 1.99),
       ]
     ),
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/cake.jpg',
+      price: 0.99,
+      category: FoodCategory.desserts,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/cake.jpg',
+      price: 0.99,
+      category: FoodCategory.desserts,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/cake.jpg',
+      price: 0.99,
+      category: FoodCategory.desserts,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/cake.jpg',
+      price: 0.99,
+      category: FoodCategory.desserts,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
     // sides
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/fries.jpg',
+      price: 0.99,
+      category: FoodCategory.sides,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/fries.jpg',
+      price: 0.99,
+      category: FoodCategory.sides,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/fries.jpg',
+      price: 0.99,
+      category: FoodCategory.sides,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
+    Food(
+      name: 'Classic Cheeseburger',
+      description:
+          'A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.',
+      imagePath: 'assets/food/fries.jpg',
+      price: 0.99,
+      category: FoodCategory.sides,
+      availableAddons: [
+        Addon(name: 'Extra Cheese', price: 0.99),
+        Addon(name: 'Bacon', price: 1.49),
+        Addon(name: 'Avocado', price: 1.99),
+      ]
+    ),
     Food(
       name: 'Classic Cheeseburger',
       description:
@@ -310,7 +414,7 @@ class Restaurant extends ChangeNotifier {
       receipt.writeln();
     }
 
-    receipt.writeln("-----------");
+    receipt.writeln("-------------");
     receipt.writeln();
     receipt.writeln("Total Items: ${getTotalItemCount()}");
     receipt.writeln("Total Price: ${_formatPrice(getTotalPrice())}");
