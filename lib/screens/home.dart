@@ -74,26 +74,26 @@ class _HomePageState extends State<HomePage>
       drawer: const MyDrawer(),
       body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) => [
-                MySliverAppBar(
-                  title: MyTabBar(tabController: _tabController),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      Divider(
-                        indent: 25,
-                        endIndent: 25,
-                        color: Theme.of(context).colorScheme.secondary,
-                      ),
-
-                      // switch
-                      MyCurrentLocation(),
-
-                      // description box
-                      const MyDescriptionBox(),
-                    ],
+            MySliverAppBar(
+              title: MyTabBar(tabController: _tabController),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Divider(
+                    indent: 25,
+                    endIndent: 25,
+                    color: Theme.of(context).colorScheme.secondary,
                   ),
-                ),
-              ],
+
+                  // switch
+                  MyCurrentLocation(),
+
+                  // description box
+                  const MyDescriptionBox(),
+                ],
+              ),
+            ),
+          ],
           body: Consumer<Restaurant>(
             builder: (context, restaurant, child) => TabBarView(
               controller: _tabController,
